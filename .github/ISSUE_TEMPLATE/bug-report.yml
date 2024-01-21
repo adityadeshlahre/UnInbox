@@ -6,48 +6,56 @@ assignees: []
 body:
   - type: markdown
     attributes:
-      value: Thank you for reporting an issue.
-        Please fill in as much of the form below as you're able to.
+      value: |
+        **Thank you for reporting an issue!**
+        Please fill in the form below to help us understand and address the problem.
   - type: textarea
     attributes:
       label: Issue Description
-      description: Please provide a clear and concise description of the problem.
+      description: Provide a clear and concise description of the problem.
       validations:
-      required: true
+        required: true
   - type: textarea
     attributes:
       label: Steps to Reproduce
-      description: Please provide step-by-step instructions to reproduce the issue. Include code snippets, error messages, and any other relevant information.
+      description: |
+        Please provide step-by-step instructions to reproduce the issue. Include code snippets, error messages, and any other relevant information.
       validations:
-      required: true
+        required: true
   - type: textarea
     attributes:
       label: Expected Behavior
       description: Describe what you expected to happen.
       validations:
-      required: true
+        required: true
   - type: textarea
     id: other-information
     attributes:
-      label: Other information
+      label: Other Information
+      description: Include any additional context or details that might help us understand the issue better.
   - type: textarea
     attributes:
       label: Screenshots (optional)
-      description: If applicable, add screenshots to help explain the issue.
+      description: If applicable, add screenshots to visually demonstrate the issue.
   - type: input
     attributes:
-      label: Operating System [e.g., Windows 10]
+      label: Operating System
+      description: Specify the operating system where the issue occurred, e.g., Windows 10.
   - type: input
     attributes:
-      label: Browser [e.g., Chrome, Firefox]
+      label: Browser
+      description: Specify the browser used, e.g., Chrome, Firefox.
   - type: input
     attributes:
-      label: nodejs-version [e.g. v20.15.0]
+      label: Node.js Version
+      description: Specify the Node.js version used, e.g., v14.17.0.
   - type: checkboxes
     attributes:
-      label: Please check the boxes that apply to this issue report.
+      label: Checklist
+      description: |
+        Please check the boxes that apply to this issue report.
       options:
-        - label: I have searched the existing issues to make sure this is not a duplicate.
-        - label: I have provided steps to reproduce the issue.
+        - label: I have searched the existing issues to ensure this is not a duplicate.
+        - label: I have provided clear steps to reproduce the issue.
         - label: I have included relevant environment information.
-        - label: I have included any relevant screenshots.
+        - label: I have attached any relevant screenshots.
