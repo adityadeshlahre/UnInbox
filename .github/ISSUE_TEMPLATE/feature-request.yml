@@ -1,7 +1,7 @@
 name: 'Feature Request'
 description: 'Suggest a new idea or enhancement for this project'
 title: '[FEATURE]'
-labels: enhancement
+labels: feature
 assignees: []
 body:
   - type: markdown
@@ -11,14 +11,20 @@ body:
     attributes:
       label: Feature Description
       description: Describe the feature you are requesting in detail. Explain what problem it solves or what value it adds to the project.
+      validations:
+      required: true
   - type: textarea
     attributes:
       label: Use Case
       description: Provide a scenario or use case where this feature would be beneficial. Explain how users would interact with this feature and why it's important.
+      validations:
+      required: true
   - type: textarea
     attributes:
       label: Proposed Solution
       description: If you have an idea of how this feature could be implemented, describe it here. Include any technical details, UI/UX considerations, or design suggestions.
+      validations:
+      required: true
   - type: textarea
     attributes:
       label: Alternatives (optional)

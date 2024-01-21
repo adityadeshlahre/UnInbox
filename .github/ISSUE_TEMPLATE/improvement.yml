@@ -1,5 +1,8 @@
-name: "General Improvement"
-description: Suggest a minor enhancement or improvement for this project
+name: 'Improvement Request'
+description: 'Suggest a minor enhancement or improvement for this project'
+title: '[ENHANCEMENT]'
+labels: enhancement
+assignees: []
 body:
   - type: markdown
     attributes:
@@ -31,5 +34,3 @@ body:
         - label: I have searched the existing issues and improvement suggestions to avoid duplication.
         - label: I have provided a clear description of the improvement being suggested.
         - label: I have explained the rationale behind this improvement.
-        - label: I have included any relevant technical details or design suggestions.
-        - label: I understand that this is a suggestion and that there is no guarantee of implementation.
